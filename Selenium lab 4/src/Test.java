@@ -23,9 +23,9 @@ public class Test {
         }
     }
     public void search(){
-        driver.findElement(By.id("first-name")).sendKeys("Ahmed");
-        driver.findElement(By.id("last-name")).sendKeys("Gamil");
-        driver.findElement(By.id("job-title")).sendKeys("Computer Engineer");
+        driver.findElement(By.id("first-name")).sendKeys("Mohamed");
+        driver.findElement(By.id("last-name")).sendKeys("Ehab");
+        driver.findElement(By.id("job-title")).sendKeys("Selenium Expert");
         driver.findElement(By.id("radio-button-2")).click();
         jse = (JavascriptExecutor)driver;
         jse.executeScript("scroll(0,1000)");
